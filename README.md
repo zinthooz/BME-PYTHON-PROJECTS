@@ -1,30 +1,46 @@
-# Clinical Patient BMI Analyzer (v1.0)
+# 🧬 Biomedical Engineering Python Portfolio
+**Author:** Ejidike Michael | DUFUHS
 
-## 🩺 Project Overview
-This Python-based diagnostic tool is designed for healthcare settings to process patient biometric data. It focuses on the "Input-Process-Output" pipeline, bridging the gap between common user measurements (Feet) and clinical metric standards (Meters/Kilograms).
+Welcome to my coding portfolio. As a Biomedical Engineering student, I am learning Python to build tools that automate clinical diagnostics and process medical data.
 
-## 🧬 Engineering Logic & Workflow
-As a Biomedical Engineering project, the code follows a strict logical sequence to ensure data integrity:
+---
 
-1. **Data Acquisition:** Captures weight (kg) and height (ft) as string inputs from the clinician.
-2. **Unit Normalization:** Performs a mathematical conversion of Imperial measurements (ft) into Metric standards (m) using the constant factor of `0.3048`.
-3. **Data Casting:** Converts raw string data into `float` types to allow for high-precision decimal calculations.
-4. **Calculations:** Applies the standard BMI formula: $BMI = weight / height^2$.
-5. **Expert System Analysis:** Uses conditional logic to categorize the patient based on World Health Organization (WHO) standards.
+## 📂 Project 2: Clinical Triage System (v2.0)
+**File:** `clinical_triage_system.py`
 
+### 🩺 Overview
+A command-line interface (CLI) that acts as a **Continuous Vital Signs Monitor**. It runs on an infinite loop, allowing clinicians to switch between diagnostic modes without restarting.
 
+### 🚀 Key Features
+* **Event Loop:** Uses `while True` to keep the system active.
+* **Complex Logic:** Detects **Hypertension** (Stage 2) using `OR` logic (Sys ≥ 140 or Dia ≥ 90).
+* **Multi-Modal:** Monitors Heart Rate, Blood Pressure, and Body Temperature.
+* **Safety:** Includes a safe shutdown sequence.
 
-## 🚀 Key Features
-- **Smart Conversion:** Automatically handles the math required to normalize user inputs for medical formulas.
-- **Clinical Precision:** Outputs results formatted to 2 decimal places, meeting standard medical reporting requirements.
-- **Automated Recommendations:** Provides immediate diagnostic status and lifestyle suggestions (e.g., Underweight, Normal, Overweight, Obese).
+---
 
+## 📂 Project 1: Patient BMI Analyzer (v1.0)
+**File:** `bmi_calculator.py` (or whatever you named your first file)
 
+### 🩺 Overview
+A diagnostic tool designed to process patient biometric data. It converts imperial measurements (feet) to metric (meters) and calculates Body Mass Index.
 
-## 🛠️ Tech Stack
-- **Language:** Python 3.x
-- **Development Environment:** IDLE & Replit
-- **Concepts Applied:** Casting, String Formatting, Arithmetic Operators, Conditional Logic.
+### 🚀 Key Features
+* **Unit Normalization:** Converts user inputs into medical standards.
+* **Classification:** Categorizes patients based on WHO standards (Underweight, Normal, Obese).
+* **Data Casting:** Handles float precision for accurate results.
 
-## ✍️ Author
-**Ejidike Michael** *Biomedical Engineering Undergraduate* *David Umahi Federal University of Health Sciences (DUFUHS)*
+---
+
+## 🛠️ Tech Stack & Concepts Learned
+* **Languages:** Python 3.x
+* **Core Concepts:**
+    * Control Flow (Loops, If/Else)
+    * Boolean Logic Gates (AND / OR)
+    * Data Type Casting (Int vs Float)
+    * Input Validation
+
+---
+
+### 📬 Contact
+Connect with me on LinkedIn for more updates on my engineering journey.
