@@ -41,6 +41,12 @@ A diagnostic tool designed to process patient biometric data. It converts imperi
     * Input Validation
 
 ---
+---
+### 🩸 Blood Bank Inventory System
+A dictionary-based management tool for Hospital Trauma Centers.
+* **Features:** Real-time stock tracking, input validation (anti-negative logic), and automated critical level alerts (< 5 units).
+* **Tech:** Python Dictionaries, While Loops, Logic Gates.
+* **File:** [blood_bank.py](blood_bank.py)
 
 ### 📬 Contact
 Connect with me on LinkedIn for more updates on my engineering journey.
